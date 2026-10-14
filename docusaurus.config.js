@@ -27,7 +27,7 @@ module.exports = {
         colorMode: {
             defaultMode: 'light',
             disableSwitch: false,
-            respectPrefersColorScheme: false,
+            respectPrefersColorScheme: true, // এটিকে true করে দিলে ব্রাউজারের থিম অটো পিক করবে এবং টগল বাটন কাজ করবে
         },
         navbar: {
             title: 'Zahidul Islam - Odoo Modules',
@@ -49,5 +49,5 @@ module.exports = {
             style: 'dark',
             copyright: `Copyright © ${new Date().getFullYear()} Zahidul Islam. Built with Docusaurus.`,
         },
-    },
+    }
 };

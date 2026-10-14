@@ -1,0 +1,30 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Light mode primary palette (Odoo-inspired modern purple) */
+:root {
+  --ifm-color-primary: #714b67;
+  --ifm-color-primary-dark: #66435d;
+  --ifm-color-primary-darker: #603f57;
+  --ifm-color-primary-darkest: #4f3448;
+  --ifm-color-primary-light: #7c5371;
+  --ifm-color-primary-lighter: #825776;
+  --ifm-color-primary-lightest: #936787;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode palette */
+[data-theme='dark'] {
+  --ifm-color-primary: #a27497;
+  --ifm-color-primary-dark: #97658c;
+  --ifm-color-primary-darker: #915e86;
+  --ifm-color-primary-darkest: #784c6e;
+  --ifm-color-primary-light: #ad83a2;
+  --ifm-color-primary-lighter: #b38baa;
+  --ifm-color-primary-lightest: #c4a3bc;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

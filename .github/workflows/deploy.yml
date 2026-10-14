@@ -1,0 +1,59 @@
+name: Deploy Odoo Apps Portfolio to GitHub Pages
+
+# ১. ট্রিগার: কখন এই পাইপলাইন চলবে?
+on:
+  push:
+    branches:
+      - main                  # main ব্রাঞ্চে কোড পুশ হলে রান হবে
+      - gratuity-interface    # বর্তমানে আপনি এই ব্রাঞ্চে কাজ করছেন, টেস্ট করার জন্য এটি রাখা হয়েছে
+  workflow_dispatch:          # আপনি চাইলে গিটহাবের বাটন ক্লিক করে ম্যানুয়ালিও রান করতে পারবেন
+
+# ২. পারমিশন: গিটহাব পেজে ডেপ্লয় করার অনুমতি
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# ৩. একই সময়ে একাধিক ডেপ্লয়মেন্ট কনফ্লিক্ট আটকানোর জন্য
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  # CI & Build জব
+  build:
+    name: Build Website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Docusaurus Website
+        run: npm run build
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  # CD & Deploy জব
+  deploy:
+    name: Deploy to GitHub Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build              # build জব সফল হলে তবেই এটি চলবে
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

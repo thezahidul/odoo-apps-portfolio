@@ -4,7 +4,7 @@ module.exports = {
         'index',
         {
             type: 'category',
-            label: 'ওডু মডিউল ম্যানুয়াল',
+            label: 'Odoo Module Manuals',
             items: [
                 'modules/gratuity',
                 // Future modules like kpi, festival bonus will go here

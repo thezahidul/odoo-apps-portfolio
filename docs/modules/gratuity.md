@@ -50,28 +50,28 @@ To provision customized parameter values matching your corporate policy book, fo
 ### Step 1: Open the Employees Application
 From the main Odoo dashboard, click on the **"Employees"** app icon to access the HR module.
 
-![Step 1: Open the Employees Application](/img/gratuity/image1.png)
+![Step 1: Open the Employees Application](/img/gratuity/image01.png)
 
 ---
 
 ### Step 2: Navigate to Gratuity Policies
 In the top menu bar, click on the **"Gratuity"** dropdown menu and select **"Gratuity Policies"**.
 
-![Step 2: Navigate to Gratuity Policies](/img/gratuity/image2.png)
+![Step 2: Navigate to Gratuity Policies](/img/gratuity/image02.png)
 
 ---
 
 ### Step 3: Create a New Policy
 Click the **"New"** button to initialize a fresh configuration matrix for your company rules.
 
-![Step 3: Create a New Policy](/img/gratuity/image3.png)
+![Step 3: Create a New Policy](/img/gratuity/image03.png)
 
 ---
 
 ### Step 4: Configure Policy Parameters
 Enter the Policy Name, Working Days per Month, Service Year Multipliers, and Tax Thresholds. Once all data is filled, save the record.
 
-![Step 4: Configure Policy Parameters](/img/gratuity/image4.png)
+![Step 4: Configure Policy Parameters](/img/gratuity/image04.png)
 
 ---
 
@@ -80,39 +80,39 @@ Enter the Policy Name, Working Days per Month, Service Year Multipliers, and Tax
 ### Step 5: Access Gratuity Records
 From the top menu, click **"Gratuity"** and then navigate to **"Gratuity Records"** (or Gratuity Settlements).
 
-![Step 5: Access Gratuity Records](/img/gratuity/image5.png)
+![Step 5: Access Gratuity Records](/img/gratuity/image05.png)
 
 ---
 
 ### Step 6: Initiate a New Settlement
 Click the **"New"** button to start processing a final settlement for a departing or retiring employee.
 
-![Step 6: Initiate a New Settlement](/img/gratuity/image6.png)
+![Step 6: Initiate a New Settlement](/img/gratuity/image06.png)
 
 ---
 
 ### Step 7: Select the Target Employee
 From the dropdown list, select the employee. The system will automatically fetch their exact joining date and compute the precise service duration.
 
-![Step 7: Select the Target Employee](/img/gratuity/image7.png)
+![Step 7: Select the Target Employee](/img/gratuity/image07.png)
 
 ---
 
 ### Step 8: Apply the Gratuity Policy
 Select the relevant Gratuity Policy you created earlier. The engine will instantly pull the correct multiplier formulas and days-per-month logic.
 
-![Step 8: Apply the Gratuity Policy](/img/gratuity/image8.png)
+![Step 8: Apply the Gratuity Policy](/img/gratuity/image08.png)
 
 ---
 
 ### Step 9: Confirm the Draft Calculation
 Click the **"Confirm"** button. This locks the tenure audit and triggers the strict anti-duplicate validation to secure the database layer.
 
-![Step 9: Confirm the Draft Calculation](/img/gratuity/image9.png)
+![Step 9: Confirm the Draft Calculation](/img/gratuity/image09.png)
 
 ---
 
 ### Step 10: Advance Pipeline and Print Report
 Move the record through the approval pipeline (**Confirmed ➔ Approved ➔ Paid**). At any point, click the **"Print Settlement Report"** button to generate the final legal A4 PDF statement.
 
-![Step 10: Advance Pipeline and Print Report](/img/gratuity/image10.png)
+![Step 10: Advance Pipeline and Print Report](/img/gratuity/image010.png)

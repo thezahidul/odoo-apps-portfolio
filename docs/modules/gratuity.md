@@ -1,46 +1,118 @@
 ---
 id: gratuity
 title: Custom HR Gratuity & Final Settlement Engine
-sidebar_label: Gratuity Fund
+sidebar_label: Gratuity & Settlement
+description: End-User Operations Manual for Custom HR Gratuity & Final Settlement Engine in Odoo v19
 ---
 
 # Custom HR Gratuity & Final Settlement Engine
-**End-User Operations Manual**
 
-## 1. Overview
-কর্মচারীদের টার্মিনাল সুবিধা (terminal benefits) ম্যানেজ করা বেশ জটিল হতে পারে, বিশেষ করে যখন কোম্পানির নীতিমালা এবং স্থানীয় শ্রম আইন (labor standards) পরিবর্তন হয়। Custom HR Gratuity Engine এইচআর প্রশাসকদের জন্য একটি ডায়নামিক কনসোল প্রদান করে, যার মাধ্যমে নিখুঁতভাবে হিসাব সম্পন্ন করা যায়।
-
-## 2. মূল বৈশিষ্ট্যসমূহ (Key Features)
-* **সঠিক সার্ভিস টেনিউর ট্র্যাকিং:** চাকরির যোগদানের তারিখ এবং অবসরের তারিখ বিশ্লেষণ করে বছর, মাস এবং দিন হিসেবে সঠিক সার্ভিস হিস্ট্রি হিসাব করে।
-* **ডায়নামিক রুল মাল্টিপ্লায়ার:** নির্দিষ্ট কনফিগারেশনের সাথে মাল্টিপ্লায়ার ম্যাপ করে, যা সার্ভিস মাইলফলক বাড়ার সাথে সাথে স্বয়ংক্রিয়ভাবে কার্যকর হয়।
-* **ট্যাক্স ও টিডিএস ছাড় (TDS Exemptions):** আইনি কর পরামিতি কনফিগার করে চূড়ান্ত পেমেন্টের আগে করযোগ্য অংশ নির্ধারণ করে।
-* **ডুপ্লিকেট এন্ট্রি প্রটেকশন:** ডেটাবেজ লেয়ার লক করে যাতে একজন কর্মচারীর জন্য একাধিক সেটেলমেন্ট রেকর্ড তৈরি না হয়।
-
-## 3. মডিউল তথ্য (Module Information)
-
-| অ্যাপের নাম (App Name) | Custom HR Gratuity & Final Settlement Engine |
-| :--- | :--- |
-| **টেকনিক্যাল নাম** | `hr_gratuity` |
-| **সমর্থিত সংস্করণ** | Odoo v19.0 (Community & Enterprise) |
-| **ডিপেন্ডেন্সি** | hr, mail |
-| **লাইসেন্স টাইপ** | LGPL-3 |
-
-## 4. প্রশাসনিক কনফিগারেশন গাইড (Administrative Configuration)
-
-### ধাপ ১: এমপ্লয়িজ অ্যাপ ওপেন করুন
-প্রধান ওডু ড্যাশবোর্ড থেকে **"Employees"** অ্যাপ আইকনে ক্লিক করুন।
-
-### ধাপ ২: গ্র্যাচুইটি পলিসিতে যান
-টপ মেনু বার থেকে **"Gratuity"** ড্রপডাউন মেনুতে ক্লিক করে **"Gratuity Policies"** সিলেক্ট করুন।
-
-### ধাপ ৩: নতুন পলিসি তৈরি করুন
-কোম্পানির নিয়ম অনুযায়ী নতুন ম্যাট্রিক্স তৈরি করতে **"New"** বোতামে ক্লিক করুন।
+> **End-User Operations Manual**  
+> Comprehensive guide for managing employee terminal benefits and automated gratuity settlements in Odoo v19.
 
 ---
 
-## 5. গ্র্যাচুইটি সেটেলমেন্ট প্রসেসিং
-১. টপ মেনু থেকে **"Gratuity Records"**-এ যান।  
-২. নতুন সেটেলমেন্ট শুরু করতে **"New"** এ ক্লিক করুন।  
-৩. নির্দিষ্ট কর্মচারী নির্বাচন করুন, সিস্টেম স্বয়ংক্রিয়ভাবে যোগদানের তারিখ ও কাজের মেয়াদ বের করে নেবে।  
-৪. **"Confirm"** বাটনে ক্লিক করে ড্রাফট হিসাব লক করুন এবং ডেটাবেজ সিকিউরিটি নিশ্চিত করুন।  
-৫. অ্যাপ্রুভাল পাইপলাইন সম্পন্ন করুন (**Confirmed ➔ Approved ➔ Paid**) এবং প্রয়োজন অনুযায়ী **"Print Settlement Report"** থেকে লিগ্যাল PDF স্টেটমেন্ট প্রিন্ট করুন।
+## 1. Overview
+
+Managing employee terminal benefits can be highly complex due to evolving company guidelines and shifting localized labor standards. The **Custom HR Gratuity Engine** provides HR administrators with a dynamic, parameter-driven console to automate calculations seamlessly. This module establishes a bulletproof framework to eliminate manual calculation errors, trap transaction duplicates, and isolate processing components.
+
+---
+
+## 2. Key Features
+
+* **Precise Service Tenure Tracking:** Analyzes employment joining and departure timelines to compute exact service history metrics broken down to absolute year fractions, months, and remainder calendar days.
+* **Dynamic Rule Multipliers:** Maps unique multipliers dynamically against defined configurations, allowing step-up rules to execute automatically as worker service milestones expand.
+* **Withholding Tax & TDS Exemptions:** Configures legal taxation parameters including explicit statutory exemption ceilings, automatically assessing taxable intersections before completing final payments.
+* **Strict Duplicate Integrity Guards:** Enforces absolute server-side database validation layer locks, trapping parallel entries instantly to restrict each unique employee profile to exactly one active historical settlement record.
+
+---
+
+## 3. Module Information
+
+| Attribute | Details |
+| :--- | :--- |
+| **App Name** | Custom HR Gratuity & Final Settlement Engine |
+| **Technical Name** | `hr_gratuity` |
+| **Supported Version** | Odoo v19.0 (Community & Enterprise) |
+| **Dependencies** | `hr`, `mail` |
+| **License Type** | LGPL-3 |
+
+---
+
+## 4. Getting Started
+
+To provision customized parameter values matching your corporate policy book, follow the step-by-step operational procedures outlined below. The process is divided into **Administrative Configuration** and **Settlement Processing**.
+
+---
+
+## 5. Administrative Configuration Guide
+
+### Step 1: Open the Employees Application
+From the main Odoo dashboard, click on the **"Employees"** app icon to access the HR module.
+
+![Step 1: Open the Employees Application](./img/image1.png)
+
+---
+
+### Step 2: Navigate to Gratuity Policies
+In the top menu bar, click on the **"Gratuity"** dropdown menu and select **"Gratuity Policies"**.
+
+![Step 2: Navigate to Gratuity Policies](./img/image2.png)
+
+---
+
+### Step 3: Create a New Policy
+Click the **"New"** button to initialize a fresh configuration matrix for your company rules.
+
+![Step 3: Create a New Policy](./img/image3.png)
+
+---
+
+### Step 4: Configure Policy Parameters
+Enter the Policy Name, Working Days per Month, Service Year Multipliers, and Tax Thresholds. Once all data is filled, save the record.
+
+![Step 4: Configure Policy Parameters](./img/image4.png)
+
+---
+
+## 6. Processing Gratuity Settlements
+
+### Step 5: Access Gratuity Records
+From the top menu, click **"Gratuity"** and then navigate to **"Gratuity Records"** (or Gratuity Settlements).
+
+![Step 5: Access Gratuity Records](./img/image5.png)
+
+---
+
+### Step 6: Initiate a New Settlement
+Click the **"New"** button to start processing a final settlement for a departing or retiring employee.
+
+![Step 6: Initiate a New Settlement](./img/image6.png)
+
+---
+
+### Step 7: Select the Target Employee
+From the dropdown list, select the employee. The system will automatically fetch their exact joining date and compute the precise service duration.
+
+![Step 7: Select the Target Employee](./img/image7.png)
+
+---
+
+### Step 8: Apply the Gratuity Policy
+Select the relevant Gratuity Policy you created earlier. The engine will instantly pull the correct multiplier formulas and days-per-month logic.
+
+![Step 8: Apply the Gratuity Policy](./img/image8.png)
+
+---
+
+### Step 9: Confirm the Draft Calculation
+Click the **"Confirm"** button. This locks the tenure audit and triggers the strict anti-duplicate validation to secure the database layer.
+
+![Step 9: Confirm the Draft Calculation](./img/image9.png)
+
+---
+
+### Step 10: Advance Pipeline and Print Report
+Move the record through the approval pipeline (**Confirmed ➔ Approved ➔ Paid**). At any point, click the **"Print Settlement Report"** button to generate the final legal A4 PDF statement.
+
+![Step 10: Advance Pipeline and Print Report](./img/image10.png)

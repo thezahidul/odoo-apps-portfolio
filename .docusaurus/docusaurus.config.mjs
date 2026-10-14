@@ -26,55 +26,33 @@ export default {
       }
     ]
   ],
-  "baseUrlIssueBanner": true,
-  "i18n": {
-    "defaultLocale": "en",
-    "path": "i18n",
-    "locales": [
-      "en"
-    ],
-    "localeConfigs": {}
-  },
-  "storage": {
-    "type": "localStorage",
-    "namespace": false
-  },
-  "future": {
-    "v4": {
-      "removeLegacyPostBuildHeadAttribute": false,
-      "useCssCascadeLayers": false,
-      "siteStorageNamespacing": false,
-      "fasterByDefault": false,
-      "mdx1CompatDisabledByDefault": false
-    },
-    "faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false,
-      "gitEagerVcs": false
-    },
-    "experimental_vcs": {},
-    "experimental_router": "browser"
-  },
-  "onBrokenLinks": "throw",
-  "onBrokenAnchors": "warn",
-  "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
-  "customFields": {},
-  "plugins": [],
-  "themes": [],
   "themeConfig": {
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "respectPrefersColorScheme": true
+    },
+    "navbar": {
+      "title": "Zahidul Islam - Odoo Modules",
+      "items": [
+        {
+          "type": "docSidebar",
+          "sidebarId": "tutorialSidebar",
+          "position": "left",
+          "label": "Documentation"
+        },
+        {
+          "href": "https://github.com/thezahidul/odoo-apps-portfolio",
+          "label": "GitHub",
+          "position": "right"
+        }
+      ],
+      "hideOnScroll": false
+    },
+    "footer": {
+      "style": "dark",
+      "copyright": "Copyright © 2026 Zahidul Islam. Built with Docusaurus.",
+      "links": []
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -89,10 +67,6 @@ export default {
       }
     },
     "metadata": [],
-    "navbar": {
-      "hideOnScroll": false,
-      "items": []
-    },
     "prism": {
       "additionalLanguages": [],
       "theme": {
@@ -240,6 +214,50 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
+  "storage": {
+    "type": "localStorage",
+    "namespace": false
+  },
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false,
+      "siteStorageNamespacing": false,
+      "fasterByDefault": false,
+      "mdx1CompatDisabledByDefault": false
+    },
+    "faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false,
+      "gitEagerVcs": false
+    },
+    "experimental_vcs": {},
+    "experimental_router": "browser"
+  },
+  "onBrokenLinks": "throw",
+  "onBrokenAnchors": "warn",
+  "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
+  "customFields": {},
+  "plugins": [],
+  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],

@@ -1,0 +1,23 @@
+{
+  "/odoo-apps-portfolio/-de0": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/odoo-apps-portfolio/-62c": {
+    "__comp": "a7bd4aaa",
+    "__props": "b40c5f08"
+  },
+  "/odoo-apps-portfolio/-9e1": {
+    "__comp": "a94703ab"
+  },
+  "/odoo-apps-portfolio/modules/gratuity-a57": {
+    "__comp": "17896441",
+    "content": "241cb0ba"
+  },
+  "/odoo-apps-portfolio/-915": {
+    "__comp": "17896441",
+    "content": "c377a04b"
+  }
+}

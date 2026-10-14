@@ -25,7 +25,7 @@
     "browserslist": {
         "production": [
             ">0.5%",
-            "noes_ed 18",
+            "node 18",
             "not dead",
             "not op_mini all"
         ],

@@ -27,7 +27,7 @@ module.exports = {
         colorMode: {
             defaultMode: 'light',
             disableSwitch: false,
-            respectPrefersColorScheme: true, // এটিকে true করে দিলে ব্রাউজারের থিম অটো পিক করবে এবং টগল বাটন কাজ করবে
+            respectPrefersColorScheme: false, // এটিকে true করে দিলে ব্রাউজারের থিম অটো পিক করবে এবং টগল বাটন কাজ করবে
         },
         navbar: {
             title: 'Zahidul Islam - Odoo Modules',

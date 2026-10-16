@@ -30,7 +30,7 @@ export default {
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "respectPrefersColorScheme": true
     },
     "navbar": {
       "title": "Zahidul Islam - Odoo Modules",

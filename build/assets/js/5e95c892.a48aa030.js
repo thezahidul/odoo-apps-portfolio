@@ -1,0 +1,1 @@
+export const __webpack_esm_ids__=[647];export const __webpack_esm_modules__={7121(e,s,r){r.r(s),r.d(s,{default:()=>n});r(6540);var _=r(4164),c=r(7559),o=r(5500),t=r(2831),a=r(8539),d=r(4848);function n(e){return(0,d.jsx)(o.e3,{className:(0,_.A)(c.G.wrapper.docsPages),children:(0,d.jsx)(a.A,{children:(0,t.v)(e.route.routes)})})}}};

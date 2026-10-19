@@ -1,0 +1,96 @@
+.toggleGroup {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 9999px;
+  padding: 2px;
+  gap: 2px;
+  box-sizing: border-box;
+}
+
+[data-theme='dark'] .toggleGroup {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.toggleBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--ifm-color-emphasis-700);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  border: none;
+  white-space: nowrap;
+}
+
+.toggleBtn:hover:not(.toggleBtnActive):not(.toggleBtnDisabled) {
+  color: var(--ifm-font-color-base);
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .toggleBtn:hover:not(.toggleBtnActive):not(.toggleBtnDisabled) {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+/* Active styles applied both via React state and HTML attribute pre-hydration */
+.toggleBtnActive,
+:global(html[data-theme-choice='light']) .toggleBtn[data-mode='light'],
+:global(html[data-theme-choice='dark']) .toggleBtn[data-mode='dark'],
+:global(html[data-theme-choice='system']) .toggleBtn[data-mode='system'] {
+  background-color: #ffffff;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+:global(html[data-theme='dark']) .toggleBtnActive,
+:global(html[data-theme='dark'][data-theme-choice='light']) .toggleBtn[data-mode='light'],
+:global(html[data-theme='dark'][data-theme-choice='dark']) .toggleBtn[data-mode='dark'],
+:global(html[data-theme='dark'][data-theme-choice='system']) .toggleBtn[data-mode='system'] {
+  background-color: var(--ifm-color-primary);
+  color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.btnIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.btnText {
+  display: inline-block;
+}
+
+.toggleBtnDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Responsive: on mobile sidebar or screens < 996px, show clean compact icons */
+@media (max-width: 996px) {
+  .btnText {
+    display: none;
+  }
+  .toggleBtn {
+    padding: 6px;
+  }
+  .btnIcon {
+    width: 15px;
+    height: 15px;
+  }
+}

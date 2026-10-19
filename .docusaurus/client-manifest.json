@@ -85,7 +85,7 @@
       "js": [
         {
           "file": "assets/js/runtime~main.bd0cd673.js",
-          "hash": "75ddeaf6828adc24",
+          "hash": "d40a201b12b8cb0f",
           "publicPath": "/odoo-apps-portfolio/assets/js/runtime~main.bd0cd673.js"
         }
       ]
@@ -156,18 +156,18 @@
     "792": {
       "js": [
         {
-          "file": "assets/js/main.23f084a9.js",
-          "hash": "59bf4eea78e5aa14",
-          "publicPath": "/odoo-apps-portfolio/assets/js/main.23f084a9.js"
+          "file": "assets/js/main.d15c86fa.js",
+          "hash": "14b982911c1e029b",
+          "publicPath": "/odoo-apps-portfolio/assets/js/main.d15c86fa.js"
         }
       ]
     },
     "869": {
       "css": [
         {
-          "file": "assets/css/styles.24d163ee.css",
-          "hash": "6d9cbd7a262a0fbb",
-          "publicPath": "/odoo-apps-portfolio/assets/css/styles.24d163ee.css"
+          "file": "assets/css/styles.a36b7e22.css",
+          "hash": "f1616d9b25e3cdac",
+          "publicPath": "/odoo-apps-portfolio/assets/css/styles.a36b7e22.css"
         }
       ]
     }

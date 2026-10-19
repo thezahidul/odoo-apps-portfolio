@@ -125,12 +125,10 @@ function ColorModeToggle({
             aria-label={ariaLabel}
             title={title}
             type="button"
-            disabled={!isBrowser}
             className={clsx(
               'clean-btn',
               styles.toggleBtn,
               isBrowser && isActive && styles.toggleBtnActive,
-              !isBrowser && styles.toggleBtnDisabled,
               buttonClassName,
             )}
             onClick={() => onChange(mode)}>

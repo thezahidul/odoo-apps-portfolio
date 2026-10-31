@@ -1,0 +1,14 @@
+{
+  "id": "modules/audit_tracker",
+  "title": "User Manual",
+  "description": "User Manual — Application Configuration & Audit Log Monitoring",
+  "source": "@site/docs/modules/audit_tracker.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/audit_tracker",
+  "permalink": "/odoo-apps-portfolio/modules/audit_tracker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

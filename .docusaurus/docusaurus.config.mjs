@@ -16,12 +16,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/zahidul-islam/Documents/Odoo Apps Portfolio/sidebars.js",
+          "sidebarPath": "/home/zahidul-islam/Documents/odoo-apps-portfolio/sidebars.js",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "/home/zahidul-islam/Documents/Odoo Apps Portfolio/src/css/custom.css"
+          "customCss": "/home/zahidul-islam/Documents/odoo-apps-portfolio/src/css/custom.css"
         }
       }
     ]

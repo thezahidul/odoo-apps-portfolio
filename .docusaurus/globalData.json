@@ -16,6 +16,10 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "modules/audit_tracker",
+              "path": "/odoo-apps-portfolio/modules/audit_tracker"
+            },
+            {
               "id": "modules/gratuity",
               "path": "/odoo-apps-portfolio/modules/gratuity",
               "sidebar": "tutorialSidebar"

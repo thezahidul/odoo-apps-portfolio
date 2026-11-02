@@ -16,8 +16,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/zahidul-islam/Documents/odoo-apps-portfolio/sidebars.js",
-          "routeBasePath": "/"
+          "sidebarPath": "/home/zahidul-islam/Documents/odoo-apps-portfolio/sidebars.js"
         },
         "blog": false,
         "theme": {
@@ -33,8 +32,13 @@ export default {
       "respectPrefersColorScheme": true
     },
     "navbar": {
-      "title": "Zahidul Islam - Odoo Modules",
+      "title": "",
       "items": [
+        {
+          "type": "html",
+          "position": "left",
+          "value": "<span style=\"font-weight: bold; font-size: 1.2rem; margin-right: 15px;\">Zahidul Islam - Odoo Modules</span>"
+        },
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",

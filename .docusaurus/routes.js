@@ -38,31 +38,26 @@ export default [
     exact: true
   },
   {
-    path: '/odoo-apps-portfolio/',
-    component: ComponentCreator('/odoo-apps-portfolio/', '6e7'),
+    path: '/odoo-apps-portfolio/docs',
+    component: ComponentCreator('/odoo-apps-portfolio/docs', '011'),
     routes: [
       {
-        path: '/odoo-apps-portfolio/',
-        component: ComponentCreator('/odoo-apps-portfolio/', 'a0d'),
+        path: '/odoo-apps-portfolio/docs',
+        component: ComponentCreator('/odoo-apps-portfolio/docs', 'd85'),
         routes: [
           {
-            path: '/odoo-apps-portfolio/',
-            component: ComponentCreator('/odoo-apps-portfolio/', 'b26'),
+            path: '/odoo-apps-portfolio/docs',
+            component: ComponentCreator('/odoo-apps-portfolio/docs', 'edd'),
             routes: [
               {
-                path: '/odoo-apps-portfolio/modules/audit_tracker',
-                component: ComponentCreator('/odoo-apps-portfolio/modules/audit_tracker', '50f'),
-                exact: true
-              },
-              {
-                path: '/odoo-apps-portfolio/modules/gratuity',
-                component: ComponentCreator('/odoo-apps-portfolio/modules/gratuity', 'a57'),
+                path: '/odoo-apps-portfolio/docs/',
+                component: ComponentCreator('/odoo-apps-portfolio/docs/', '36d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/odoo-apps-portfolio/',
-                component: ComponentCreator('/odoo-apps-portfolio/', '915'),
+                path: '/odoo-apps-portfolio/docs/modules/gratuity',
+                component: ComponentCreator('/odoo-apps-portfolio/docs/modules/gratuity', '74b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -71,6 +66,11 @@ export default [
         ]
       }
     ]
+  },
+  {
+    path: '/odoo-apps-portfolio/',
+    component: ComponentCreator('/odoo-apps-portfolio/', '933'),
+    exact: true
   },
   {
     path: '*',

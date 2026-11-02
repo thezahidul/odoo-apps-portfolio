@@ -10,5 +10,10 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gratuity & Settlement",
+    "permalink": "/odoo-apps-portfolio/modules/gratuity"
+  }
 }

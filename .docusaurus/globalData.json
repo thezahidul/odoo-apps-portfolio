@@ -1,27 +1,23 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/odoo-apps-portfolio/",
+      "path": "/odoo-apps-portfolio/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/odoo-apps-portfolio/",
-          "mainDocId": "index",
+          "path": "/odoo-apps-portfolio/docs",
+          "mainDocId": "modules/audit-tracker",
           "docs": [
             {
-              "id": "index",
-              "path": "/odoo-apps-portfolio/",
+              "id": "modules/audit-tracker",
+              "path": "/odoo-apps-portfolio/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "modules/audit_tracker",
-              "path": "/odoo-apps-portfolio/modules/audit_tracker"
-            },
-            {
               "id": "modules/gratuity",
-              "path": "/odoo-apps-portfolio/modules/gratuity",
+              "path": "/odoo-apps-portfolio/docs/modules/gratuity",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -29,8 +25,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/odoo-apps-portfolio/",
-                "label": "index"
+                "path": "/odoo-apps-portfolio/docs/",
+                "label": "modules/audit-tracker"
               }
             }
           }

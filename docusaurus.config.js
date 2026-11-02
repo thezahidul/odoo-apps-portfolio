@@ -13,7 +13,7 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    routeBasePath: '/',
+                    // routeBasePath লাইনটি এখান থেকে সম্পূর্ণ মুছে দিন
                 },
                 blog: false,
                 theme: {
@@ -30,8 +30,15 @@ module.exports = {
             respectPrefersColorScheme: true, // Enables system theme detection and auto switching
         },
         navbar: {
-            title: 'Zahidul Islam - Odoo Modules',
+            // ekhane title faka rakha holo jate default link toiri na hoy
+            title: '',
             items: [
+                // Title ta ke ekhane unlinked plain text (HTML) hisebe add kora holo
+                {
+                    type: 'html',
+                    position: 'left',
+                    value: '<span style="font-weight: bold; font-size: 1.2rem; margin-right: 15px;">Zahidul Islam - Odoo Modules</span>',
+                },
                 {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',

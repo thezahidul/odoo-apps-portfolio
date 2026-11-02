@@ -1,28 +1,16 @@
-# User Manual
+---
+slug: /
+title: Audit Tracker Manual
+---
 
-# Zencore Advanced Audit Tracker
 
 ## User Manual — Application Configuration & Audit Log Monitoring
 
-**Product:** Zencore Advanced Audit Tracker
-
-**Platform:** Odoo 19
-
-**Module:** `zencore_audit_tracker`
-
-**Document Version:** 1.0
-
-**Date:** October 24, 2026
-
-**Audience:** System Administrators, Audit Managers, and Authorized Auditors
-
 ---
 
-# 1. Introduction
+## 1 Overview
 
-## 1.1 Overview
-
-Zencore Advanced Audit Tracker is an Odoo application designed to monitor and record changes made to business data across selected Odoo applications.
+Advanced Audit Tracker is an Odoo application designed to monitor and record changes made to business data across selected Odoo applications.
 
 The system helps organizations maintain visibility over who created, modified, or deleted records and when those actions occurred.
 
@@ -678,24 +666,10 @@ Step 16: Search, Filter & Group Audit Events
 
 # 18. Conclusion
 
-Zencore Advanced Audit Tracker provides a centralized solution for monitoring supported record changes across selected Odoo applications.
+Advanced Audit Tracker provides a centralized solution for monitoring supported record changes across selected Odoo applications.
 
 Its application-based configuration reduces the need for users to understand Odoo's technical model structure, while User and Company Scopes provide flexibility over which activities are monitored.
 
 The Audit Event Logs interface allows authorized personnel to review operations and organize recorded activities through search filters and grouping.
 
 By following the steps in this guide, administrators can configure audit monitoring and review recorded events using the existing Odoo interface.
-
----
-
-**Document Title:** Zencore Advanced Audit Tracker — User Manual
-
-**Platform:** Odoo 19
-
-**Version:** 1.0
-
-**Prepared For:** Client Users and System Administrators
-
-**Last Updated:** October 24, 2026
-
-*This guide describes the functionality demonstrated in the supplied screenshots. Audit coverage, security enforcement, and performance should be validated against the deployed configuration before production use.*

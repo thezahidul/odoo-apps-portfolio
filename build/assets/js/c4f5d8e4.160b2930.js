@@ -1,0 +1,1 @@
+export const __webpack_esm_ids__=[634];export const __webpack_esm_modules__={192(o,_,e){e.r(_),e.d(_,{default:()=>s});e(6540);var t=e(612),r=e(4848);function s(){return(0,r.jsx)(t.rd,{to:"/odoo-apps-portfolio/docs/modules/audit-tracker"})}}};

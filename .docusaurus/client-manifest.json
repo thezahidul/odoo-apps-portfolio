@@ -29,6 +29,12 @@
     "5e95c892": [
       647
     ],
+    "7e205b78": [
+      341
+    ],
+    "a7456010": [
+      235
+    ],
     "a7bd4aaa": [
       98
     ],
@@ -39,11 +45,11 @@
     "aba21aa0": [
       742
     ],
-    "b40c5f08": [
-      359
+    "c4f5d8e4": [
+      634
     ],
-    "c377a04b": [
-      361
+    "c5e3b7df": [
+      340
     ],
     "styles": [
       48,
@@ -58,7 +64,7 @@
       "js": [
         {
           "file": "assets/js/a94703ab.c40f132f.js",
-          "hash": "63cd50f5a9eeca09",
+          "hash": "3892d99249e51b5b",
           "publicPath": "/odoo-apps-portfolio/assets/js/a94703ab.c40f132f.js"
         }
       ]
@@ -72,6 +78,15 @@
         }
       ]
     },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.896f003e.js",
+          "hash": "924a25464ff271a9",
+          "publicPath": "/odoo-apps-portfolio/assets/js/a7456010.896f003e.js"
+        }
+      ]
+    },
     "237": {
       "js": [
         {
@@ -81,30 +96,30 @@
         }
       ]
     },
+    "340": {
+      "js": [
+        {
+          "file": "assets/js/c5e3b7df.fae55cc0.js",
+          "hash": "270e4bf557da0a5a",
+          "publicPath": "/odoo-apps-portfolio/assets/js/c5e3b7df.fae55cc0.js"
+        }
+      ]
+    },
+    "341": {
+      "js": [
+        {
+          "file": "assets/js/7e205b78.845e059f.js",
+          "hash": "01060849538e6e00",
+          "publicPath": "/odoo-apps-portfolio/assets/js/7e205b78.845e059f.js"
+        }
+      ]
+    },
     "354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.bd0cd673.js",
-          "hash": "d40a201b12b8cb0f",
-          "publicPath": "/odoo-apps-portfolio/assets/js/runtime~main.bd0cd673.js"
-        }
-      ]
-    },
-    "359": {
-      "js": [
-        {
-          "file": "assets/js/b40c5f08.a24209e8.js",
-          "hash": "655fcdd0f4138ef9",
-          "publicPath": "/odoo-apps-portfolio/assets/js/b40c5f08.a24209e8.js"
-        }
-      ]
-    },
-    "361": {
-      "js": [
-        {
-          "file": "assets/js/c377a04b.5b5c9498.js",
-          "hash": "082e5e76eb9329ea",
-          "publicPath": "/odoo-apps-portfolio/assets/js/c377a04b.5b5c9498.js"
+          "file": "assets/js/runtime~main.a46b3403.js",
+          "hash": "cdd7ee1098a867d8",
+          "publicPath": "/odoo-apps-portfolio/assets/js/runtime~main.a46b3403.js"
         }
       ]
     },
@@ -123,6 +138,15 @@
           "file": "assets/js/436.376046b9.js",
           "hash": "fb1ba92f315626f9",
           "publicPath": "/odoo-apps-portfolio/assets/js/436.376046b9.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.160b2930.js",
+          "hash": "74bb315a8ff6f51b",
+          "publicPath": "/odoo-apps-portfolio/assets/js/c4f5d8e4.160b2930.js"
         }
       ]
     },
@@ -147,18 +171,18 @@
     "748": {
       "js": [
         {
-          "file": "assets/js/241cb0ba.6e1416ae.js",
-          "hash": "353b0cfb62c59551",
-          "publicPath": "/odoo-apps-portfolio/assets/js/241cb0ba.6e1416ae.js"
+          "file": "assets/js/241cb0ba.d0a805a8.js",
+          "hash": "41f9403e9ef2fbb9",
+          "publicPath": "/odoo-apps-portfolio/assets/js/241cb0ba.d0a805a8.js"
         }
       ]
     },
     "792": {
       "js": [
         {
-          "file": "assets/js/main.d15c86fa.js",
-          "hash": "14b982911c1e029b",
-          "publicPath": "/odoo-apps-portfolio/assets/js/main.d15c86fa.js"
+          "file": "assets/js/main.d363dd2f.js",
+          "hash": "58ee783e278b15b4",
+          "publicPath": "/odoo-apps-portfolio/assets/js/main.d363dd2f.js"
         }
       ]
     },

@@ -1,7 +1,6 @@
+import React from 'react';
+import { Redirect } from '@docusaurus/router';
 
-// import React from 'react';
-// import { Redirect } from '@docusaurus/router';
-
-// export default function Home() {
-//   return <Redirect to="/docs/modules/audit-tracker" />;
-// }
+export default function Home() {
+  return <Redirect to="/odoo-apps-portfolio/docs/modules/audit-tracker" />;
+}

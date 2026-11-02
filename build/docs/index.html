@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-modules/audit-tracker" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.2">
+<title data-rh="true">Audit Tracker Manual | Zahidul Islam - Odoo Modules</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://thezahidul.github.io/odoo-apps-portfolio/docs/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Audit Tracker Manual | Zahidul Islam - Odoo Modules"><meta data-rh="true" name="description" content="User Manual — Application Configuration &amp; Audit Log Monitoring"><meta data-rh="true" property="og:description" content="User Manual — Application Configuration &amp; Audit Log Monitoring"><link data-rh="true" rel="canonical" href="https://thezahidul.github.io/odoo-apps-portfolio/docs/"><link data-rh="true" rel="alternate" href="https://thezahidul.github.io/odoo-apps-portfolio/docs/" hreflang="en"><link data-rh="true" rel="alternate" href="https://thezahidul.github.io/odoo-apps-portfolio/docs/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Audit Tracker Manual","item":"https://thezahidul.github.io/odoo-apps-portfolio/docs/"}]}</script><link rel="stylesheet" href="/odoo-apps-portfolio/assets/css/styles.a36b7e22.css">
+<script src="/odoo-apps-portfolio/assets/js/runtime~main.a46b3403.js" defer="defer"></script>
+<script src="/odoo-apps-portfolio/assets/js/main.d363dd2f.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/odoo-apps-portfolio/"><b class="navbar__title text--truncate"></b></a><div class="navbar__item"><span style="font-weight: bold; font-size: 1.2rem; margin-right: 15px;">Zahidul Islam - Odoo Modules</span></div><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/odoo-apps-portfolio/docs/">Documentation</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/thezahidul/odoo-apps-portfolio" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div role="radiogroup" aria-label="Color theme switcher" class="toggleGroup__70B colorModeToggle_DEke"><button data-mode="light" role="radio" aria-label="Switch to light mode" title="Light mode" type="button" class="clean-btn toggleBtn_c8Ay"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="btnIcon_yc8B"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><span class="btnText_h0j6">Light</span></button><button data-mode="dark" role="radio" aria-label="Switch to dark mode" title="Dark mode" type="button" class="clean-btn toggleBtn_c8Ay"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="btnIcon_yc8B"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg><span class="btnText_h0j6">Dark</span></button><button data-mode="system" role="radio" aria-label="Switch to system mode" title="System mode" type="button" class="clean-btn toggleBtn_c8Ay"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="btnIcon_yc8B"><rect width="20" height="14" x="2" y="3" rx="2"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg><span class="btnText_h0j6">System</span></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/odoo-apps-portfolio/docs/"><span class="linkLabel_WmDU">Audit Tracker Manual</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/odoo-apps-portfolio/docs/modules/gratuity"><span class="linkLabel_WmDU">Gratuity &amp; Settlement</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/odoo-apps-portfolio/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Audit Tracker Manual</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Audit Tracker Manual</h1></header><h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-manual--application-configuration--audit-log-monitoring">User Manual — Application Configuration &amp; Audit Log Monitoring<a href="#user-manual--application-configuration--audit-log-monitoring" class="hash-link" aria-label="Direct link to User Manual — Application Configuration &amp; Audit Log Monitoring" title="Direct link to User Manual — Application Configuration &amp; Audit Log Monitoring" translate="no">​</a></h2>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-overview">1 Overview<a href="#1-overview" class="hash-link" aria-label="Direct link to 1 Overview" title="Direct link to 1 Overview" translate="no">​</a></h2>
+<p>Advanced Audit Tracker is an Odoo application designed to monitor and record changes made to business data across selected Odoo applications.</p>
+<p>The system helps organizations maintain visibility over who created, modified, or deleted records and when those actions occurred.</p>
+<p>Administrators can configure audit tracking without manually selecting every technical model. By selecting an installed application, the system can automatically identify and display the related target models.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-key-features">1.2 Key Features<a href="#12-key-features" class="hash-link" aria-label="Direct link to 1.2 Key Features" title="Direct link to 1.2 Key Features" translate="no">​</a></h2>
+<ul>
+<li class="">Application-based audit tracking</li>
+<li class="">Multiple application selection</li>
+<li class="">Automatic target model selection</li>
+<li class="">Create, Update, and Delete monitoring</li>
+<li class="">User-specific tracking</li>
+<li class="">Company-specific tracking</li>
+<li class="">Field-level change history</li>
+<li class="">Centralized audit event logs</li>
+<li class="">Application-based search and filtering</li>
+<li class="">Audit log grouping and review</li>
+</ul>
+<hr>
+<h1>2. Accessing the Audit Tracker</h1>
+<p><img decoding="async" loading="lazy" alt="step_1.png" src="/odoo-apps-portfolio/assets/images/step_1-9139362493030f74cca6676a4d5d27b7.png" width="828" height="320" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1--open-audit--security">Step 1 — Open Audit &amp; Security<a href="#step-1--open-audit--security" class="hash-link" aria-label="Direct link to Step 1 — Open Audit &amp; Security" title="Direct link to Step 1 — Open Audit &amp; Security" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 1 — Odoo Home Dashboard</strong></p>
+<p>From the Odoo home dashboard, locate the <strong>Audit &amp; Security</strong> application icon.</p>
+<p>Click the icon to open the Audit Tracker.</p>
+<p>The application provides access to Audit Logs and Configuration.</p>
+<p><strong>Expected Result:</strong> The Audit &amp; Security application opens successfully.</p>
+<hr>
+<h1>3. Opening Audit Rule Configuration</h1>
+<p><img decoding="async" loading="lazy" alt="step_2.png" src="/odoo-apps-portfolio/assets/images/step_2-e71a7e274e8aedb2337bdda7a68d0ddb.png" width="1574" height="398" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2--navigate-to-audit-rules">Step 2 — Navigate to Audit Rules<a href="#step-2--navigate-to-audit-rules" class="hash-link" aria-label="Direct link to Step 2 — Navigate to Audit Rules" title="Direct link to Step 2 — Navigate to Audit Rules" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 2 — Configuration Menu</strong></p>
+<p>From the Audit &amp; Security application:</p>
+<ol>
+<li class="">Click <strong>Configuration</strong> in the top navigation.</li>
+<li class="">Select <strong>Audit Rules</strong> from the dropdown menu.</li>
+</ol>
+<p>The Audit Rules page displays existing tracking rules and provides the option to create new rules.</p>
+<p><strong>Navigation Path:</strong></p>
+<p><code>Audit &amp; Security → Configuration → Audit Rules</code></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3--create-a-new-audit-rule">Step 3 — Create a New Audit Rule<a href="#step-3--create-a-new-audit-rule" class="hash-link" aria-label="Direct link to Step 3 — Create a New Audit Rule" title="Direct link to Step 3 — Create a New Audit Rule" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="step _3_4.png" src="/odoo-apps-portfolio/assets/images/step__3_4-14e75dfb2633cf315ff59d2bb235b7fb.png" width="1074" height="677" class="img_ev3q"></p>
+<p><strong>Screenshot Reference: Step 3 — Rule Name</strong></p>
+<p>Click <strong>New</strong> to create an audit rule.</p>
+<p>Enter a descriptive rule name in the Rule Name field.</p>
+<p>For example:</p>
+<p><code>Account Track</code></p>
+<p>The name should clearly identify the purpose of the rule.</p>
+<p>Other examples include:</p>
+<ul>
+<li class="">Sales Tracking</li>
+<li class="">Inventory Tracking</li>
+<li class="">Accounting Tracking</li>
+<li class="">Sales &amp; Inventory Monitoring</li>
+</ul>
+<p><strong>Recommended Practice:</strong> Create meaningful names that make it easy to identify the business applications being monitored.</p>
+<hr>
+<h1>4. Application Selection</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-4--select-applications">Step 4 — Select Applications<a href="#step-4--select-applications" class="hash-link" aria-label="Direct link to Step 4 — Select Applications" title="Direct link to Step 4 — Select Applications" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 4 — Applications Dropdown</strong></p>
+<p>Locate the <strong>Applications</strong> field under Target Configuration.</p>
+<p>Click the selection field to display the installed Odoo modules available for tracking.</p>
+<p>For example:</p>
+<table><thead><tr><th>Application</th><th>Description</th></tr></thead><tbody><tr><td>Sales</td><td>Sales Orders and related business activities</td></tr><tr><td>Invoicing</td><td>Invoices, Journals, and Accounting Records</td></tr><tr><td>Inventory</td><td>Transfers, Stock Movements, and Warehouse Records</td></tr><tr><td>Barcode</td><td>Barcode-related operations</td></tr><tr><td>Discuss</td><td>Communication-related models</td></tr></tbody></table>
+<p>Select the required application.</p>
+<p>For this example, select <strong>Invoicing</strong>.</p>
+<p><strong>Important:</strong> The application list may include supporting Odoo modules in addition to primary business applications. Users should select only the applications they need to monitor.</p>
+<p>Multiple applications can be selected within a single rule.</p>
+<hr>
+<h1>5. Configuring Automatic Model Tracking</h1>
+<p><img decoding="async" loading="lazy" alt="step_5_6_7_8.png" src="/odoo-apps-portfolio/assets/images/step_5_6_7_8-8878627868434bf7bb10efaf4c505c30.png" width="1087" height="926" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-5--review-the-automatically-selected-target-models">Step 5 — Review the Automatically Selected Target Models<a href="#step-5--review-the-automatically-selected-target-models" class="hash-link" aria-label="Direct link to Step 5 — Review the Automatically Selected Target Models" title="Direct link to Step 5 — Review the Automatically Selected Target Models" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 5 — Target Models</strong></p>
+<p>After selecting an application, the Audit Tracker automatically identifies associated eligible target models.</p>
+<p>The <strong>Model Selection</strong> field displays:</p>
+<p><code>Automatic</code></p>
+<p>The Target Models field is populated without requiring manual model selection.</p>
+<p>For the Invoicing application, target models may include:</p>
+<table><thead><tr><th>Target Model</th><th>Purpose</th></tr></thead><tbody><tr><td>Account</td><td>Accounting account configuration</td></tr><tr><td>Journal</td><td>Accounting journals</td></tr><tr><td>Journal Entry</td><td>Financial transactions</td></tr><tr><td>Journal Item</td><td>Individual accounting entry lines</td></tr><tr><td>Payments</td><td>Payment-related records</td></tr><tr><td>Tax</td><td>Tax configuration</td></tr><tr><td>Bank Statement</td><td>Bank statement records</td></tr><tr><td>Product</td><td>Shared product information</td></tr></tbody></table>
+<p>The exact models depend on installed Odoo modules and the configured model-discovery rules.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="automatic-vs-manual-model-selection">Automatic vs. Manual Model Selection<a href="#automatic-vs-manual-model-selection" class="hash-link" aria-label="Direct link to Automatic vs. Manual Model Selection" title="Direct link to Automatic vs. Manual Model Selection" translate="no">​</a></h3>
+<p><strong>Automatic Mode</strong></p>
+<p>The system automatically identifies and selects eligible models associated with the selected applications.</p>
+<p>This mode is recommended for most users.</p>
+<p><strong>Manual Mode</strong></p>
+<p>An administrator can manually select specific target models when more precise tracking is required.</p>
+<p>This mode is recommended for advanced configurations.</p>
+<p><strong>Expected Result:</strong> The selected application and its automatically resolved target models are displayed in the Audit Rule form.</p>
+<hr>
+<h1>6. Configuring Tracking Operations</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-6--enable-create-tracking">Step 6 — Enable Create Tracking<a href="#step-6--enable-create-tracking" class="hash-link" aria-label="Direct link to Step 6 — Enable Create Tracking" title="Direct link to Step 6 — Enable Create Tracking" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 6 — Track Create</strong></p>
+<p>Enable <strong>Track Create</strong> to monitor newly created business records.</p>
+<p>Example:</p>
+<p>A user creates a new customer invoice.</p>
+<p>The system can record:</p>
+<ul>
+<li class="">Acting user</li>
+<li class="">Date and time</li>
+<li class="">Target model</li>
+<li class="">Created record</li>
+<li class="">Create operation</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-7--enable-update-tracking">Step 7 — Enable Update Tracking<a href="#step-7--enable-update-tracking" class="hash-link" aria-label="Direct link to Step 7 — Enable Update Tracking" title="Direct link to Step 7 — Enable Update Tracking" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 7 — Track Update</strong></p>
+<p>Enable <strong>Track Update</strong> to monitor modifications to existing records.</p>
+<p>Example:</p>
+<p>A user changes an invoice&#x27;s editable information.</p>
+<p>The Audit Tracker can record the modified fields and their previous and new values.</p>
+<p><strong>Example of Field Change History:</strong></p>
+<table><thead><tr><th>Field</th><th>Previous Value</th><th>New Value</th></tr></thead><tbody><tr><td>Payment Reference</td><td>REF-001</td><td>REF-002</td></tr><tr><td>Description</td><td>Original Description</td><td>Updated Description</td></tr></tbody></table>
+<p>Actual captured fields depend on the configured models and field filters.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-8--enable-delete-tracking">Step 8 — Enable Delete Tracking<a href="#step-8--enable-delete-tracking" class="hash-link" aria-label="Direct link to Step 8 — Enable Delete Tracking" title="Direct link to Step 8 — Enable Delete Tracking" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 8 — Track Delete</strong></p>
+<p>Enable <strong>Track Delete</strong> to monitor record deletion.</p>
+<p>Example:</p>
+<p>A user deletes an eligible draft business record.</p>
+<p>The Audit Tracker can preserve an audit event identifying the deleted record and the user responsible for the operation.</p>
+<p><strong>Important:</strong> Delete Tracking records deletion events; it does not automatically restore deleted business records.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="operation-summary">Operation Summary<a href="#operation-summary" class="hash-link" aria-label="Direct link to Operation Summary" title="Direct link to Operation Summary" translate="no">​</a></h3>
+<table><thead><tr><th>Operation</th><th>Recommended Configuration</th></tr></thead><tbody><tr><td>Track Create</td><td>Enabled</td></tr><tr><td>Track Update</td><td>Enabled</td></tr><tr><td>Track Delete</td><td>Enabled</td></tr></tbody></table>
+<p>For complete basic CRUD monitoring, enable all three operations.</p>
+<hr>
+<h1>7. Configuring User Tracking Scope</h1>
+<p><img decoding="async" loading="lazy" alt="step_9_to_13.png" src="/odoo-apps-portfolio/assets/images/step_9_to_13-c0a4d66e93797c9c87856e0d51ebb53c.png" width="1191" height="934" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-9--select-the-user-scope">Step 9 — Select the User Scope<a href="#step-9--select-the-user-scope" class="hash-link" aria-label="Direct link to Step 9 — Select the User Scope" title="Direct link to Step 9 — Select the User Scope" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 9 — User Scope</strong></p>
+<p>Open the <strong>Scope &amp; Exclusions</strong> tab.</p>
+<p>Under the Users section, locate <strong>User Scope</strong>.</p>
+<p>The system provides three scope options.</p>
+<table><thead><tr><th>User Scope</th><th>Behavior</th></tr></thead><tbody><tr><td>All Internal Users</td><td>Monitors applicable activities performed by internal users</td></tr><tr><td>Selected Users Only</td><td>Monitors only the specified users</td></tr><tr><td>All Except Excluded Users</td><td>Monitors applicable users except those explicitly excluded</td></tr></tbody></table>
+<p>For this example, select:</p>
+<p><code>Selected Users Only</code></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-10--select-the-users-to-monitor">Step 10 — Select the Users to Monitor<a href="#step-10--select-the-users-to-monitor" class="hash-link" aria-label="Direct link to Step 10 — Select the Users to Monitor" title="Direct link to Step 10 — Select the Users to Monitor" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 10 — Selected Users</strong></p>
+<p>After choosing Selected Users Only, the <strong>Selected Users</strong> field becomes available.</p>
+<p>Click the field and select the required user.</p>
+<p>In the provided example:</p>
+<p><code>Administrator</code></p>
+<p>Only operations matching the selected user scope are eligible for logging under this rule.</p>
+<p><strong>Important:</strong> When Selected Users Only is enabled, at least one user must be selected.</p>
+<p>If the organization wants to monitor all applicable internal users, select All Internal Users instead.</p>
+<hr>
+<h1>8. Configuring Company Tracking Scope</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-11--select-the-company-scope">Step 11 — Select the Company Scope<a href="#step-11--select-the-company-scope" class="hash-link" aria-label="Direct link to Step 11 — Select the Company Scope" title="Direct link to Step 11 — Select the Company Scope" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 11 — Company Scope</strong></p>
+<p>Under the Companies section, locate <strong>Company Scope</strong>.</p>
+<p>Two options are available.</p>
+<table><thead><tr><th>Company Scope</th><th>Behavior</th></tr></thead><tbody><tr><td>All Applicable Companies</td><td>Tracks eligible activities across applicable companies</td></tr><tr><td>Selected Companies Only</td><td>Tracks activities associated with selected companies</td></tr></tbody></table>
+<p>For this example, select:</p>
+<p><code>Selected Companies Only</code></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-12--select-the-company">Step 12 — Select the Company<a href="#step-12--select-the-company" class="hash-link" aria-label="Direct link to Step 12 — Select the Company" title="Direct link to Step 12 — Select the Company" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 12 — Companies Field</strong></p>
+<p>After selecting Selected Companies Only, the <strong>Companies</strong> field becomes available.</p>
+<p>Choose the company that should be monitored.</p>
+<p>In the provided example:</p>
+<p><code>My Company</code></p>
+<p>The rule will apply to matching operations associated with the selected company.</p>
+<p><strong>Important:</strong> If Selected Companies Only is enabled, at least one company must be selected.</p>
+<p>Tracking a company&#x27;s activities does not automatically grant users permission to view that company&#x27;s audit records. Audit Log access remains subject to the configured security permissions.</p>
+<hr>
+<h1>9. Saving the Audit Rule</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-13--save-the-configuration">Step 13 — Save the Configuration<a href="#step-13--save-the-configuration" class="hash-link" aria-label="Direct link to Step 13 — Save the Configuration" title="Direct link to Step 13 — Save the Configuration" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 13 — Saved Audit Rule</strong></p>
+<p>After completing the configuration, save the Audit Rule using the available save control.</p>
+<p>Before saving, review the following information:</p>
+<table><thead><tr><th>Configuration</th><th>Example</th></tr></thead><tbody><tr><td>Rule Name</td><td>Account Track</td></tr><tr><td>Application</td><td>Invoicing</td></tr><tr><td>Model Selection</td><td>Automatic</td></tr><tr><td>Target Models</td><td>Automatically populated</td></tr><tr><td>Track Create</td><td>Enabled</td></tr><tr><td>Track Update</td><td>Enabled</td></tr><tr><td>Track Delete</td><td>Enabled</td></tr><tr><td>User Scope</td><td>Selected Users Only</td></tr><tr><td>Selected User</td><td>Administrator</td></tr><tr><td>Company Scope</td><td>Selected Companies Only</td></tr><tr><td>Company</td><td>My Company</td></tr><tr><td>Active</td><td>Enabled</td></tr></tbody></table>
+<p>Once saved successfully, the rule becomes available in the Audit Rules list.</p>
+<p><strong>Expected Result:</strong> The Audit Rule is stored and the configured tracking settings remain visible when the rule is reopened.</p>
+<hr>
+<h1>10. Reviewing Existing Audit Rules</h1>
+<p><img decoding="async" loading="lazy" alt="step_15.png" src="/odoo-apps-portfolio/assets/images/step_15-efd8780c3c08192487aed276628c26e7.png" width="1848" height="529" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-14--open-the-audit-rules-list">Step 14 — Open the Audit Rules List<a href="#step-14--open-the-audit-rules-list" class="hash-link" aria-label="Direct link to Step 14 — Open the Audit Rules List" title="Direct link to Step 14 — Open the Audit Rules List" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 14 — Audit Rules List View</strong></p>
+<p>Navigate to:</p>
+<p><code>Audit &amp; Security → Configuration → Audit Rules</code></p>
+<p>The list displays the existing Audit Rules.</p>
+<p>In the provided screenshots, the following examples are configured:</p>
+<ul>
+<li class="">Sales</li>
+<li class="">Inventory</li>
+<li class="">Account Track</li>
+</ul>
+<p>The Audit Rule List includes:</p>
+<table><thead><tr><th>Column</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>Audit Rule name</td></tr><tr><td>Applications</td><td>Selected application or applications</td></tr><tr><td>Model Selection</td><td>Automatic or Manual</td></tr><tr><td>Target Models</td><td>Configured target models</td></tr><tr><td>Track Create</td><td>Create monitoring status</td></tr><tr><td>Track Update</td><td>Update monitoring status</td></tr><tr><td>Track Delete</td><td>Delete monitoring status</td></tr><tr><td>Active</td><td>Whether the rule is enabled</td></tr></tbody></table>
+<p>Administrators can use this page to review configurations and open a rule to make adjustments.</p>
+<p><strong>Recommended Practice:</strong> Periodically review existing rules to avoid unnecessary tracking and ensure the intended applications remain monitored.</p>
+<hr>
+<h1>11. Viewing Audit Event Logs</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-15--open-audit-logs">Step 15 — Open Audit Logs<a href="#step-15--open-audit-logs" class="hash-link" aria-label="Direct link to Step 15 — Open Audit Logs" title="Direct link to Step 15 — Open Audit Logs" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Audit Logs Navigation</strong></p>
+<p>From the top navigation, click <strong>Audit Logs</strong>.</p>
+<p>This opens the Audit Event Logs page.</p>
+<p><strong>Navigation Path:</strong></p>
+<p><code>Audit &amp; Security → Audit Logs</code></p>
+<p>The Audit Event Logs page provides a centralized history of captured operations.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="audit-log-information">Audit Log Information<a href="#audit-log-information" class="hash-link" aria-label="Direct link to Audit Log Information" title="Direct link to Audit Log Information" translate="no">​</a></h3>
+<table><thead><tr><th>Column</th><th>Description</th></tr></thead><tbody><tr><td>Timestamp</td><td>Date and time of the operation</td></tr><tr><td>User</td><td>User responsible for the operation</td></tr><tr><td>Application</td><td>Classified business application</td></tr><tr><td>Operation</td><td>Create, Update, or Delete</td></tr><tr><td>Model Technical Name</td><td>Odoo model affected</td></tr><tr><td>Record ID</td><td>Technical record identifier</td></tr><tr><td>Record Display Name</td><td>Name of the business record</td></tr></tbody></table>
+<p>Example:</p>
+<table><thead><tr><th>Application</th><th>Operation</th><th>Model</th></tr></thead><tbody><tr><td>Sales</td><td>Create</td><td><code>sale.order</code></td></tr><tr><td>Sales</td><td>Update</td><td><code>sale.order.line</code></td></tr><tr><td>Sales</td><td>Delete</td><td><code>sale.order.line</code></td></tr><tr><td>Products / Shared</td><td>Create</td><td><code>product.product</code></td></tr></tbody></table>
+<p>Click an Audit Event to view its details and available field-change history.</p>
+<hr>
+<h1>12. Searching, Filtering, and Grouping Audit Logs</h1>
+<p><img decoding="async" loading="lazy" alt="step_16.png" src="/odoo-apps-portfolio/assets/images/step_16-623d492c468f447e917d5034173dd263.png" width="1846" height="971" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-16--use-audit-log-filters">Step 16 — Use Audit Log Filters<a href="#step-16--use-audit-log-filters" class="hash-link" aria-label="Direct link to Step 16 — Use Audit Log Filters" title="Direct link to Step 16 — Use Audit Log Filters" translate="no">​</a></h2>
+<p><strong>Screenshot Reference: Step 16 — Search, Filter &amp; Group By</strong></p>
+<p>Click the search dropdown on the Audit Event Logs page.</p>
+<p>The search interface provides operation filters, application filters, and grouping options.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-filter-by-operation">A. Filter by Operation<a href="#a-filter-by-operation" class="hash-link" aria-label="Direct link to A. Filter by Operation" title="Direct link to A. Filter by Operation" translate="no">​</a></h3>
+<p>Select the required operation:</p>
+<table><thead><tr><th>Filter</th><th>Result</th></tr></thead><tbody><tr><td>Creates</td><td>Displays Create events</td></tr><tr><td>Updates</td><td>Displays Update events</td></tr><tr><td>Deletes</td><td>Displays Delete events</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="b-filter-by-application">B. Filter by Application<a href="#b-filter-by-application" class="hash-link" aria-label="Direct link to B. Filter by Application" title="Direct link to B. Filter by Application" translate="no">​</a></h3>
+<p>Select the required application:</p>
+<table><thead><tr><th>Filter</th><th>Result</th></tr></thead><tbody><tr><td>Sales</td><td>Displays events classified as Sales</td></tr><tr><td>Inventory</td><td>Displays events classified as Inventory</td></tr><tr><td>Accounting</td><td>Displays events classified as Accounting</td></tr><tr><td>Purchase</td><td>Displays events classified as Purchase</td></tr><tr><td>Products / Shared</td><td>Displays events classified as shared product activities</td></tr></tbody></table>
+<p>Available filters depend on the installed version and configuration.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="c-group-audit-events">C. Group Audit Events<a href="#c-group-audit-events" class="hash-link" aria-label="Direct link to C. Group Audit Events" title="Direct link to C. Group Audit Events" translate="no">​</a></h3>
+<p>Use the <strong>Group By</strong> section to organize records.</p>
+<p>Available options shown in the screenshots:</p>
+<ul>
+<li class="">Application</li>
+<li class="">User</li>
+<li class="">Model</li>
+<li class="">Operation</li>
+<li class="">Date</li>
+</ul>
+<p><strong>Example: Group By Application</strong></p>
+<p>The system groups audit records according to their application classification.</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">Audit Event Logs</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">│</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">├── Sales</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">│   ├── Sales Order Created</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">│   ├── Sales Order Updated</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">│   └── Sales Order Line Deleted</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">│</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">└── Products / Shared</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    ├── Product Created</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    └── Product Updated</span><br></div></code></pre></div></div>
+<p><strong>Note:</strong> Product Models may be classified as Products / Shared because those models are used by multiple business applications. This classification does not necessarily identify which application screen originally initiated the change.</p>
+<hr>
+<h1>13. Recommended Configuration Examples</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-a--sales-activity-monitoring">Example A — Sales Activity Monitoring<a href="#example-a--sales-activity-monitoring" class="hash-link" aria-label="Direct link to Example A — Sales Activity Monitoring" title="Direct link to Example A — Sales Activity Monitoring" translate="no">​</a></h2>
+<table><thead><tr><th>Setting</th><th>Configuration</th></tr></thead><tbody><tr><td>Rule Name</td><td>Sales</td></tr><tr><td>Application</td><td>Sales</td></tr><tr><td>Model Selection</td><td>Automatic</td></tr><tr><td>Create Tracking</td><td>Enabled</td></tr><tr><td>Update Tracking</td><td>Enabled</td></tr><tr><td>Delete Tracking</td><td>Enabled</td></tr><tr><td>User Scope</td><td>All Internal Users</td></tr><tr><td>Company Scope</td><td>All Applicable Companies</td></tr><tr><td>Active</td><td>Yes</td></tr></tbody></table>
+<p><strong>Purpose:</strong> Monitor eligible Sales Orders and related Sales Models.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-b--inventory-activity-monitoring">Example B — Inventory Activity Monitoring<a href="#example-b--inventory-activity-monitoring" class="hash-link" aria-label="Direct link to Example B — Inventory Activity Monitoring" title="Direct link to Example B — Inventory Activity Monitoring" translate="no">​</a></h2>
+<table><thead><tr><th>Setting</th><th>Configuration</th></tr></thead><tbody><tr><td>Rule Name</td><td>Inventory</td></tr><tr><td>Application</td><td>Inventory</td></tr><tr><td>Model Selection</td><td>Automatic</td></tr><tr><td>Create Tracking</td><td>Enabled</td></tr><tr><td>Update Tracking</td><td>Enabled</td></tr><tr><td>Delete Tracking</td><td>Enabled</td></tr><tr><td>User Scope</td><td>All Internal Users</td></tr><tr><td>Company Scope</td><td>All Applicable Companies</td></tr><tr><td>Active</td><td>Yes</td></tr></tbody></table>
+<p><strong>Purpose:</strong> Monitor eligible Inventory Transfers, Stock Movements, and other selected Inventory Models.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-c--accounting-activity-monitoring">Example C — Accounting Activity Monitoring<a href="#example-c--accounting-activity-monitoring" class="hash-link" aria-label="Direct link to Example C — Accounting Activity Monitoring" title="Direct link to Example C — Accounting Activity Monitoring" translate="no">​</a></h2>
+<table><thead><tr><th>Setting</th><th>Configuration</th></tr></thead><tbody><tr><td>Rule Name</td><td>Account Track</td></tr><tr><td>Application</td><td>Invoicing</td></tr><tr><td>Model Selection</td><td>Automatic</td></tr><tr><td>Create Tracking</td><td>Enabled</td></tr><tr><td>Update Tracking</td><td>Enabled</td></tr><tr><td>Delete Tracking</td><td>Enabled</td></tr><tr><td>User Scope</td><td>Selected Users Only</td></tr><tr><td>Selected User</td><td>Administrator</td></tr><tr><td>Company Scope</td><td>Selected Companies Only</td></tr><tr><td>Selected Company</td><td>My Company</td></tr><tr><td>Active</td><td>Yes</td></tr></tbody></table>
+<p><strong>Purpose:</strong> Monitor eligible accounting-related record operations performed by the Administrator in My Company.</p>
+<hr>
+<h1>14. Understanding Important Settings</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="track-all-fields">Track All Fields<a href="#track-all-fields" class="hash-link" aria-label="Direct link to Track All Fields" title="Direct link to Track All Fields" translate="no">​</a></h2>
+<p>When Track All Fields is enabled, the Audit Tracker attempts to capture supported field modifications according to its tracking rules.</p>
+<p>Sensitive or excluded fields should remain protected.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="active">Active<a href="#active" class="hash-link" aria-label="Direct link to Active" title="Direct link to Active" translate="no">​</a></h2>
+<p>The Active switch controls whether the Audit Rule participates in monitoring.</p>
+<p>An inactive rule should not capture new events under that rule.</p>
+<p>Previously recorded Audit Events remain part of the existing history, subject to retention policies.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="model-selection">Model Selection<a href="#model-selection" class="hash-link" aria-label="Direct link to Model Selection" title="Direct link to Model Selection" translate="no">​</a></h2>
+<p>Automatic Mode is intended to simplify configuration.</p>
+<p>Manual Mode provides more advanced control over monitored models.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-and-company-scope">User and Company Scope<a href="#user-and-company-scope" class="hash-link" aria-label="Direct link to User and Company Scope" title="Direct link to User and Company Scope" translate="no">​</a></h2>
+<p>User Scope determines whose activities match the rule.</p>
+<p>Company Scope determines which business companies match the rule.</p>
+<p>Both conditions must be satisfied for an operation to match the configured scope.</p>
+<hr>
+<h1>15. Troubleshooting</h1>
+<table><thead><tr><th>Issue</th><th>Recommended Action</th></tr></thead><tbody><tr><td>Audit &amp; Security is not visible</td><td>Contact the system administrator to verify application/menu access</td></tr><tr><td>Audit Rules menu is missing</td><td>Verify Audit Manager permissions</td></tr><tr><td>New button is not available</td><td>Verify Create permission for Audit Rules</td></tr><tr><td>Application is missing</td><td>Confirm the application is installed and eligible for selection</td></tr><tr><td>Target Models are empty</td><td>Verify Automatic Mode and selected applications</td></tr><tr><td>No Audit Events appear</td><td>Check that the rule is active, the model is included, and the operation is enabled</td></tr><tr><td>A specific user&#x27;s events are missing</td><td>Review User Scope and selected/excluded users</td></tr><tr><td>A company&#x27;s events are missing</td><td>Review Company Scope and permissions</td></tr><tr><td>Product activity appears under Products / Shared</td><td>This may be expected for shared product models</td></tr><tr><td>Old and New Values are missing</td><td>Check supported fields, field filters, and the type of operation</td></tr></tbody></table>
+<hr>
+<h1>16. Best Practices</h1>
+<p>For effective Audit Tracking:</p>
+<ol>
+<li class="">Enable tracking only for applications relevant to organizational monitoring.</li>
+<li class="">Use descriptive Audit Rule names.</li>
+<li class="">Prefer Automatic Model Selection for standard configuration.</li>
+<li class="">Review automatically selected models before enabling broad monitoring.</li>
+<li class="">Restrict Audit Rule configuration to authorized administrators.</li>
+<li class="">Apply User and Company Scopes carefully.</li>
+<li class="">Review Audit Logs regularly.</li>
+<li class="">Avoid exposing confidential information in audit records.</li>
+<li class="">Keep unnecessary high-volume tracking disabled where possible.</li>
+<li class="">Test major rule changes before applying them to production.</li>
+</ol>
+<hr>
+<h1>17. End-to-End Workflow Summary</h1>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#bfc7d5"><span class="token plain">Odoo Home Dashboard</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 1: Open Audit &amp; Security</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 2: Configuration → Audit Rules</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 3: Create a New Audit Rule</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 4: Select Applications</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 5: Review Automatic Target Models</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 6: Enable Create Tracking</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 7: Enable Update Tracking</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 8: Enable Delete Tracking</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 9: Configure User Scope</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 10: Select Users (if required)</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 11: Configure Company Scope</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 12: Select Companies (if required)</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 13: Save the Audit Rule</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 14: Review Audit Rules</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 15: Open Audit Event Logs</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        ↓</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">Step 16: Search, Filter &amp; Group Audit Events</span><br></div></code></pre></div></div>
+<hr>
+<h1>18. Conclusion</h1>
+<p>Advanced Audit Tracker provides a centralized solution for monitoring supported record changes across selected Odoo applications.</p>
+<p>Its application-based configuration reduces the need for users to understand Odoo&#x27;s technical model structure, while User and Company Scopes provide flexibility over which activities are monitored.</p>
+<p>The Audit Event Logs interface allows authorized personnel to review operations and organize recorded activities through search filters and grouping.</p>
+<p>By following the steps in this guide, administrators can configure audit monitoring and review recorded events using the existing Odoo interface.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--next" href="/odoo-apps-portfolio/docs/modules/gratuity"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Gratuity &amp; Settlement</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#user-manual--application-configuration--audit-log-monitoring" class="table-of-contents__link toc-highlight">User Manual — Application Configuration &amp; Audit Log Monitoring</a></li><li><a href="#1-overview" class="table-of-contents__link toc-highlight">1 Overview</a></li><li><a href="#12-key-features" class="table-of-contents__link toc-highlight">1.2 Key Features</a></li><li><a href="#step-1--open-audit--security" class="table-of-contents__link toc-highlight">Step 1 — Open Audit &amp; Security</a></li><li><a href="#step-2--navigate-to-audit-rules" class="table-of-contents__link toc-highlight">Step 2 — Navigate to Audit Rules</a></li><li><a href="#step-3--create-a-new-audit-rule" class="table-of-contents__link toc-highlight">Step 3 — Create a New Audit Rule</a></li><li><a href="#step-4--select-applications" class="table-of-contents__link toc-highlight">Step 4 — Select Applications</a></li><li><a href="#step-5--review-the-automatically-selected-target-models" class="table-of-contents__link toc-highlight">Step 5 — Review the Automatically Selected Target Models</a><ul><li><a href="#automatic-vs-manual-model-selection" class="table-of-contents__link toc-highlight">Automatic vs. Manual Model Selection</a></li></ul></li><li><a href="#step-6--enable-create-tracking" class="table-of-contents__link toc-highlight">Step 6 — Enable Create Tracking</a></li><li><a href="#step-7--enable-update-tracking" class="table-of-contents__link toc-highlight">Step 7 — Enable Update Tracking</a></li><li><a href="#step-8--enable-delete-tracking" class="table-of-contents__link toc-highlight">Step 8 — Enable Delete Tracking</a><ul><li><a href="#operation-summary" class="table-of-contents__link toc-highlight">Operation Summary</a></li></ul></li><li><a href="#step-9--select-the-user-scope" class="table-of-contents__link toc-highlight">Step 9 — Select the User Scope</a></li><li><a href="#step-10--select-the-users-to-monitor" class="table-of-contents__link toc-highlight">Step 10 — Select the Users to Monitor</a></li><li><a href="#step-11--select-the-company-scope" class="table-of-contents__link toc-highlight">Step 11 — Select the Company Scope</a></li><li><a href="#step-12--select-the-company" class="table-of-contents__link toc-highlight">Step 12 — Select the Company</a></li><li><a href="#step-13--save-the-configuration" class="table-of-contents__link toc-highlight">Step 13 — Save the Configuration</a></li><li><a href="#step-14--open-the-audit-rules-list" class="table-of-contents__link toc-highlight">Step 14 — Open the Audit Rules List</a></li><li><a href="#step-15--open-audit-logs" class="table-of-contents__link toc-highlight">Step 15 — Open Audit Logs</a><ul><li><a href="#audit-log-information" class="table-of-contents__link toc-highlight">Audit Log Information</a></li></ul></li><li><a href="#step-16--use-audit-log-filters" class="table-of-contents__link toc-highlight">Step 16 — Use Audit Log Filters</a><ul><li><a href="#a-filter-by-operation" class="table-of-contents__link toc-highlight">A. Filter by Operation</a></li><li><a href="#b-filter-by-application" class="table-of-contents__link toc-highlight">B. Filter by Application</a></li><li><a href="#c-group-audit-events" class="table-of-contents__link toc-highlight">C. Group Audit Events</a></li></ul></li><li><a href="#example-a--sales-activity-monitoring" class="table-of-contents__link toc-highlight">Example A — Sales Activity Monitoring</a></li><li><a href="#example-b--inventory-activity-monitoring" class="table-of-contents__link toc-highlight">Example B — Inventory Activity Monitoring</a></li><li><a href="#example-c--accounting-activity-monitoring" class="table-of-contents__link toc-highlight">Example C — Accounting Activity Monitoring</a></li><li><a href="#track-all-fields" class="table-of-contents__link toc-highlight">Track All Fields</a></li><li><a href="#active" class="table-of-contents__link toc-highlight">Active</a></li><li><a href="#model-selection" class="table-of-contents__link toc-highlight">Model Selection</a></li><li><a href="#user-and-company-scope" class="table-of-contents__link toc-highlight">User and Company Scope</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Zahidul Islam. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

@@ -6,7 +6,8 @@
 Welcome to my central documentation portal! This repository hosts the user manuals, technical guides, and end-user operations manuals for the custom Odoo ERP modules I have developed.
 
 ## 🌐 Live Website
-**🔗 [Visit the Documentation Portal](https://thezahidul.github.io/odoo-apps-portfolio/docs/)**
+**🔗 Visit the Documentation Portal:**
+https://thezahidul.github.io/odoo-apps-portfolio/docs/
 
 ## 📚 Documented Modules
 Currently, this portal includes comprehensive documentation for the following custom Odoo modules:

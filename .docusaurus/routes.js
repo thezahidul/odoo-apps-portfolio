@@ -39,25 +39,31 @@ export default [
   },
   {
     path: '/odoo-apps-portfolio/docs',
-    component: ComponentCreator('/odoo-apps-portfolio/docs', '011'),
+    component: ComponentCreator('/odoo-apps-portfolio/docs', '892'),
     routes: [
       {
         path: '/odoo-apps-portfolio/docs',
-        component: ComponentCreator('/odoo-apps-portfolio/docs', 'd85'),
+        component: ComponentCreator('/odoo-apps-portfolio/docs', '2b8'),
         routes: [
           {
             path: '/odoo-apps-portfolio/docs',
-            component: ComponentCreator('/odoo-apps-portfolio/docs', 'edd'),
+            component: ComponentCreator('/odoo-apps-portfolio/docs', 'bc2'),
             routes: [
               {
                 path: '/odoo-apps-portfolio/docs/',
-                component: ComponentCreator('/odoo-apps-portfolio/docs/', '36d'),
+                component: ComponentCreator('/odoo-apps-portfolio/docs/', '8c2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/odoo-apps-portfolio/docs/modules/gratuity',
-                component: ComponentCreator('/odoo-apps-portfolio/docs/modules/gratuity', '74b'),
+                path: '/odoo-apps-portfolio/docs/disciplinary-actions',
+                component: ComponentCreator('/odoo-apps-portfolio/docs/disciplinary-actions', '958'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/odoo-apps-portfolio/docs/gratuity-fund',
+                component: ComponentCreator('/odoo-apps-portfolio/docs/gratuity-fund', '9ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

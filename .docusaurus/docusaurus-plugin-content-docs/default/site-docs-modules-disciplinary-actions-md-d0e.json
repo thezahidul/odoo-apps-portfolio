@@ -1,0 +1,23 @@
+{
+  "id": "modules/disciplinary-actions",
+  "title": "HR Disciplinary Action Management",
+  "description": "HR Disciplinary Action Management — User Manual",
+  "source": "@site/docs/modules/disciplinary-actions.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/disciplinary-actions",
+  "permalink": "/odoo-apps-portfolio/docs/modules/disciplinary-actions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "disciplinary-actions",
+    "title": "HR Disciplinary Action Management",
+    "sidebar_label": "Disciplinary Actions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gratuity & Settlement",
+    "permalink": "/odoo-apps-portfolio/docs/modules/gratuity"
+  }
+}

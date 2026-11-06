@@ -1,8 +1,9 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
-    'modules/audit-tracker',
-    'modules/gratuity',
+    'gratuity-fund',
+    'disciplinary-actions',
+    'audit-tracker',
   ],
 };
 

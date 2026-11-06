@@ -1,0 +1,27 @@
+{
+  "id": "disciplinary-actions",
+  "title": "HR Disciplinary Action Management",
+  "description": "Module Setup and Configuration",
+  "source": "@site/docs/disciplinary-actions.md",
+  "sourceDirName": ".",
+  "slug": "/disciplinary-actions",
+  "permalink": "/odoo-apps-portfolio/docs/disciplinary-actions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "disciplinary-actions",
+    "title": "HR Disciplinary Action Management",
+    "sidebar_label": "Disciplinary Actions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gratuity & Settlement",
+    "permalink": "/odoo-apps-portfolio/docs/gratuity-fund"
+  },
+  "next": {
+    "title": "Audit Log Monitoring",
+    "permalink": "/odoo-apps-portfolio/docs/"
+  }
+}

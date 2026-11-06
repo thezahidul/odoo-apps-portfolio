@@ -1,7 +1,7 @@
 {
   "id": "modules/gratuity",
   "title": "Custom HR Gratuity & Final Settlement Engine",
-  "description": "End-User Operations Manual for Custom HR Gratuity & Final Settlement Engine in Odoo v19",
+  "description": "End-User Operations Manual",
   "source": "@site/docs/modules/gratuity.md",
   "sourceDirName": "modules",
   "slug": "/modules/gratuity",
@@ -13,12 +13,15 @@
   "frontMatter": {
     "id": "gratuity",
     "title": "Custom HR Gratuity & Final Settlement Engine",
-    "sidebar_label": "Gratuity & Settlement",
-    "description": "End-User Operations Manual for Custom HR Gratuity & Final Settlement Engine in Odoo v19"
+    "sidebar_label": "Gratuity & Settlement"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Audit Tracker Manual",
+    "title": "Audit Log Monitoring",
     "permalink": "/odoo-apps-portfolio/docs/"
+  },
+  "next": {
+    "title": "Disciplinary Actions",
+    "permalink": "/odoo-apps-portfolio/docs/modules/disciplinary-actions"
   }
 }

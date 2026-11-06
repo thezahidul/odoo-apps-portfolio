@@ -1,14 +1,10 @@
 ---
-id: gratuity
+id: gratuity-fund
 title: Custom HR Gratuity & Final Settlement Engine
 sidebar_label: Gratuity & Settlement
-description: End-User Operations Manual for Custom HR Gratuity & Final Settlement Engine in Odoo v19
 ---
 
-# Custom HR Gratuity & Final Settlement Engine
-
-> **End-User Operations Manual**  
-> Comprehensive guide for managing employee terminal benefits and automated gratuity settlements in Odoo v19.
+# HR Gratuity & Final Settlement Engine
 
 ---
 

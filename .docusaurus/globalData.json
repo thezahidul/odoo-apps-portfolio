@@ -8,16 +8,21 @@
           "label": "Next",
           "isLast": true,
           "path": "/odoo-apps-portfolio/docs",
-          "mainDocId": "modules/audit-tracker",
+          "mainDocId": "audit-tracker",
           "docs": [
             {
-              "id": "modules/audit-tracker",
+              "id": "audit-tracker",
               "path": "/odoo-apps-portfolio/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "modules/gratuity",
-              "path": "/odoo-apps-portfolio/docs/modules/gratuity",
+              "id": "disciplinary-actions",
+              "path": "/odoo-apps-portfolio/docs/disciplinary-actions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gratuity-fund",
+              "path": "/odoo-apps-portfolio/docs/gratuity-fund",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -25,8 +30,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/odoo-apps-portfolio/docs/",
-                "label": "modules/audit-tracker"
+                "path": "/odoo-apps-portfolio/docs/gratuity-fund",
+                "label": "gratuity-fund"
               }
             }
           }

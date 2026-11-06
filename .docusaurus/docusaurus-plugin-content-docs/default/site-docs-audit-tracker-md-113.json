@@ -1,0 +1,23 @@
+{
+  "id": "audit-tracker",
+  "title": "Audit Log Monitoring",
+  "description": "---",
+  "source": "@site/docs/audit-tracker.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/odoo-apps-portfolio/docs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/",
+    "title": "Audit Log Monitoring",
+    "sidebar_label": "Audit Log Monitoring"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disciplinary Actions",
+    "permalink": "/odoo-apps-portfolio/docs/disciplinary-actions"
+  }
+}

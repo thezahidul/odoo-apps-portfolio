@@ -1,7 +1,7 @@
 {
   "id": "modules/audit-tracker",
-  "title": "Audit Tracker Manual",
-  "description": "User Manual — Application Configuration & Audit Log Monitoring",
+  "title": "Audit Log Monitoring",
+  "description": "---",
   "source": "@site/docs/modules/audit-tracker.md",
   "sourceDirName": "modules",
   "slug": "/",
@@ -12,7 +12,8 @@
   "version": "current",
   "frontMatter": {
     "slug": "/",
-    "title": "Audit Tracker Manual"
+    "title": "Audit Log Monitoring",
+    "sidebar_label": "Audit Log Monitoring"
   },
   "sidebar": "tutorialSidebar",
   "next": {

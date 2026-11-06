@@ -42,26 +42,30 @@
       "plugin": "plugin---odoo-apps-portfolio-docusaurus-debugb-38-fe9"
     }
   },
-  "/odoo-apps-portfolio/docs-011": {
+  "/odoo-apps-portfolio/docs-892": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---odoo-apps-portfolio-docsaba-d73"
     }
   },
-  "/odoo-apps-portfolio/docs-d85": {
+  "/odoo-apps-portfolio/docs-2b8": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---odoo-apps-portfolio-docsc-5-e-269"
   },
-  "/odoo-apps-portfolio/docs-edd": {
+  "/odoo-apps-portfolio/docs-bc2": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/odoo-apps-portfolio/docs/-36d": {
+  "/odoo-apps-portfolio/docs/-8c2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---odoo-apps-portfolio-docs-7-e-2-555"
+    "content": "content---odoo-apps-portfolio-docs-113-9eb"
   },
-  "/odoo-apps-portfolio/docs/modules/gratuity-74b": {
+  "/odoo-apps-portfolio/docs/disciplinary-actions-958": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---odoo-apps-portfolio-docs-modules-gratuity-241-1c8"
+    "content": "content---odoo-apps-portfolio-docs-disciplinary-actionsf-14-ff3"
+  },
+  "/odoo-apps-portfolio/docs/gratuity-fund-9ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---odoo-apps-portfolio-docs-gratuity-fundc-52-609"
   },
   "/odoo-apps-portfolio/-933": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

@@ -1,10 +1,8 @@
 ---
 slug: /
-title: Audit Tracker Manual
+title: Audit Log Monitoring 
+sidebar_label: Audit Log Monitoring
 ---
-
-
-## User Manual — Application Configuration & Audit Log Monitoring
 
 ---
 

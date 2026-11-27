@@ -1,7 +1,7 @@
 {
   "id": "disciplinary-actions",
   "title": "HR Disciplinary Action Management",
-  "description": "Module Setup and Configuration",
+  "description": "---",
   "source": "@site/docs/disciplinary-actions.md",
   "sourceDirName": ".",
   "slug": "/disciplinary-actions",

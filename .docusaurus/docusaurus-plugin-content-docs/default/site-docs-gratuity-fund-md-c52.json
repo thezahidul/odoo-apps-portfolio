@@ -16,6 +16,10 @@
     "sidebar_label": "Gratuity & Settlement"
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Festival Bonus",
+    "permalink": "/odoo-apps-portfolio/docs/festival-bonus"
+  },
   "next": {
     "title": "Disciplinary Actions",
     "permalink": "/odoo-apps-portfolio/docs/disciplinary-actions"

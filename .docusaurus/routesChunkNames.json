@@ -42,17 +42,17 @@
       "plugin": "plugin---odoo-apps-portfolio-docusaurus-debugb-38-fe9"
     }
   },
-  "/odoo-apps-portfolio/docs-892": {
+  "/odoo-apps-portfolio/docs-be8": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---odoo-apps-portfolio-docsaba-d73"
     }
   },
-  "/odoo-apps-portfolio/docs-2b8": {
+  "/odoo-apps-portfolio/docs-e3c": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---odoo-apps-portfolio-docsc-5-e-269"
   },
-  "/odoo-apps-portfolio/docs-bc2": {
+  "/odoo-apps-portfolio/docs-240": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/odoo-apps-portfolio/docs/-8c2": {
@@ -62,6 +62,10 @@
   "/odoo-apps-portfolio/docs/disciplinary-actions-958": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---odoo-apps-portfolio-docs-disciplinary-actionsf-14-ff3"
+  },
+  "/odoo-apps-portfolio/docs/festival-bonus-998": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---odoo-apps-portfolio-docs-festival-bonus-35-c-14f"
   },
   "/odoo-apps-portfolio/docs/gratuity-fund-9ae": {
     "__comp": "__comp---theme-doc-item-178-a40",

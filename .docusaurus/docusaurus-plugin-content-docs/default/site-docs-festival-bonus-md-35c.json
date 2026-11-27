@@ -1,0 +1,23 @@
+{
+  "id": "festival-bonus",
+  "title": "Festival Bonus Management",
+  "description": "---",
+  "source": "@site/docs/festival-bonus.md",
+  "sourceDirName": ".",
+  "slug": "/festival-bonus",
+  "permalink": "/odoo-apps-portfolio/docs/festival-bonus",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "festival-bonus",
+    "title": "Festival Bonus Management",
+    "sidebar_label": "Festival Bonus"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Gratuity & Settlement",
+    "permalink": "/odoo-apps-portfolio/docs/gratuity-fund"
+  }
+}

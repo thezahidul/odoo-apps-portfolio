@@ -4,6 +4,12 @@ title: HR Disciplinary Action Management
 sidebar_label: Disciplinary Actions
 ---
 
+---
+
+## 1. Overview
+
+The Disciplinary Action Management Module is designed to manage and monitor employee disciplinary cases through a structured workflow. It enables organizations to handle complaints, rule violations, absenteeism, misconduct, policy violations, and other disciplinary issues efficiently. Users can create disciplinary cases, record allegations against employees, issue Show Cause Notices, receive and review employee explanations, conduct investigations, obtain necessary approvals, and apply appropriate disciplinary actions such as warnings, suspensions, or other measures. The module also maintains a complete history of each case and allows users to generate and print official notices and disciplinary letters in PDF format, ensuring a transparent, consistent, and well-documented disciplinary process.
+
 ## Module Setup and Configuration
 
 ![step_1.png](/img/disciplinary_actions/step_1.png)

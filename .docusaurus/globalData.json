@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "festival-bonus",
+              "path": "/odoo-apps-portfolio/docs/festival-bonus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "gratuity-fund",
               "path": "/odoo-apps-portfolio/docs/gratuity-fund",
               "sidebar": "tutorialSidebar"
@@ -30,8 +35,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/odoo-apps-portfolio/docs/gratuity-fund",
-                "label": "gratuity-fund"
+                "path": "/odoo-apps-portfolio/docs/festival-bonus",
+                "label": "festival-bonus"
               }
             }
           }

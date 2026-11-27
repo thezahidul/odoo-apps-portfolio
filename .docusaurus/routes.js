@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/odoo-apps-portfolio/docs',
-    component: ComponentCreator('/odoo-apps-portfolio/docs', '892'),
+    component: ComponentCreator('/odoo-apps-portfolio/docs', 'be8'),
     routes: [
       {
         path: '/odoo-apps-portfolio/docs',
-        component: ComponentCreator('/odoo-apps-portfolio/docs', '2b8'),
+        component: ComponentCreator('/odoo-apps-portfolio/docs', 'e3c'),
         routes: [
           {
             path: '/odoo-apps-portfolio/docs',
-            component: ComponentCreator('/odoo-apps-portfolio/docs', 'bc2'),
+            component: ComponentCreator('/odoo-apps-portfolio/docs', '240'),
             routes: [
               {
                 path: '/odoo-apps-portfolio/docs/',
@@ -58,6 +58,12 @@ export default [
               {
                 path: '/odoo-apps-portfolio/docs/disciplinary-actions',
                 component: ComponentCreator('/odoo-apps-portfolio/docs/disciplinary-actions', '958'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/odoo-apps-portfolio/docs/festival-bonus',
+                component: ComponentCreator('/odoo-apps-portfolio/docs/festival-bonus', '998'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

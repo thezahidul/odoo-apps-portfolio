@@ -4,7 +4,7 @@ title: Festival Bonus Management
 sidebar_label: Festival Bonus
 ---
 
-# Festival Bonus Management
+---
 
 ## 1. Overview
 
@@ -28,7 +28,7 @@ Users can create reusable bonus templates, define employee eligibility requireme
 
 # Part A — Festival Bonus Template Configuration
 
-![step_1.png](Festival%20Bonus/step_1.png)
+![step_1.png](/img/festival_bonus/step_1.png)
 
 ## Step 1 — Open Festival Bonus
 
@@ -36,7 +36,7 @@ From the Odoo Home Dashboard, click the **Festival Bonus** application icon.
 
 **Result:** The Festival Bonus module opens.
 
-![step_2_to_6.png](Festival%20Bonus/step_2_to_6.png)
+![step_2_to_6.png](/img/festival_bonus/step_2_to_6.png)
 
 ## Step 2 — Open Bonus Templates
 
@@ -80,7 +80,7 @@ Employees who do not meet this requirement are identified as ineligible during b
 
 The module provides three calculation options. Configure the method that matches the organization's festival bonus policy.
 
-![conditional_step_7_to_8.png](Festival%20Bonus/conditional_step_7_to_8.png)
+![conditional_step_7_to_8.png](/img/festival_bonus/conditional_step_7_to_8.png)
 
 ### Step 7 — If Enable Fixed Amount
 
@@ -94,7 +94,7 @@ Enter the fixed bonus value.
 
 The configured fixed amount is used for eligible employees, subject to the module's calculation rules.
 
-![conditional_step_9_to_10.png](Festival%20Bonus/conditional_step_9_to_10.png)
+![conditional_step_9_to_10.png](/img/festival_bonus/conditional_step_9_to_10.png)
 
 ### Step 9 — If Enable Designation-Wise Bonus
 
@@ -116,7 +116,7 @@ Configure the following fields:
 
 **Example:** An Experienced Developer in the Management department receives a configured bonus rate of 20%.
 
-![conditional_step_11_to_12.png](Festival%20Bonus/conditional_step_11_to_12.png)
+![conditional_step_11_to_12.png](/img/festival_bonus/conditional_step_11_to_12.png)
 
 ### Step 11 — If Set Minimum Bonus Amount
 
@@ -132,7 +132,7 @@ Enter the **Maximum Bonus Amount** to configure the upper bonus limit.
 
 A value of `0.00` is shown in the screenshot. Its treatment depends on the module's calculation logic.
 
-![step_13.png](Festival%20Bonus/step_13.png)
+![step_13.png](/img/festival_bonus/step_13.png)
 
 **Step 13 — If Configure Standard Bonus Percentage**
 
@@ -144,7 +144,7 @@ Enter the required value in **Bonus Percentage (%)**.
 
 The module uses the selected salary base and calculation basis when applying the percentage.
 
-![step_14.png](Festival%20Bonus/step_14.png)
+![step_14.png](/img/festival_bonus/step_14.png)
 
 ## Step 14 — Configure Accounting Settings
 
@@ -162,7 +162,7 @@ Review the configured calculation, eligibility, and accounting settings, then sa
 
 # Part B — Festival Bonus Processing
 
-![step_15_to_16.png](Festival%20Bonus/step_15_to_16.png)
+![step_15_to_16.png](/img/festival_bonus/step_15_to_16.png)
 
 ## Step 15 — Open Festival Bonus Records
 
@@ -178,7 +178,7 @@ Enter a descriptive name for the bonus record.
 
 This name helps identify the bonus batch in future records and reports.
 
-![step_17.png](Festival%20Bonus/step_17.png)
+![step_17.png](/img/festival_bonus/step_17.png)
 
 ## Step 17 — Select Bonus Template
 
@@ -190,7 +190,7 @@ The configured calculation, eligibility, and accounting settings are populated i
 
 Review the **Bonus Applicable Date** before proceeding.
 
-![step_18_to_19.png](Festival%20Bonus/step_18_to_19.png)
+![step_18_to_19.png](/img/festival_bonus/step_18_to_19.png)
 
 ## Step 18 — Open Employees Tab
 
@@ -204,7 +204,7 @@ Click **Bulk Add Employees** to open the employee selection wizard.
 
 This option allows multiple employees to be added to the bonus record.
 
-![step_20.png](Festival%20Bonus/step_20.png)
+![step_20.png](/img/festival_bonus/step_20.png)
 
 ## Step 20 — Filter and Select Employees
 
@@ -227,7 +227,7 @@ Review the selected employees and click **Add Employees**.
 
 # Part C — Bonus Calculation & Confirmation
 
-![step_21_to_22.png](Festival%20Bonus/step_21_to_22.png)
+![step_21_to_22.png](/img/festival_bonus/step_21_to_22.png)
 
 ## Step 21 — Review Employee Eligibility and Bonus Amounts
 
@@ -260,7 +260,7 @@ The **Total Bonus** field summarizes the bonus amount for the record.
 
 Review the employee details and calculated amounts before confirming the record.
 
-![step_21_to_22.png](Festival%20Bonus/step_21_to_22%201.png)
+![step_21_to_22.png](/img/festival_bonus/step_21_to_22%201.png)
 
 ## Step 22 — Confirm Festival Bonus
 
@@ -272,7 +272,7 @@ The record moves from **Draft** to **Confirmed** status.
 
 Confirmation does not necessarily mean that salary payments or accounting entries have been posted.
 
-![step_23.png](Festival%20Bonus/step_23.png)
+![step_23.png](/img/festival_bonus/step_23.png)
 
 ## Step 23 — Review Confirmed Bonus Record
 
